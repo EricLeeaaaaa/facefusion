@@ -1,11 +1,21 @@
-FaceFusion
-==========
+FFEE (FaceFusion Enhanced Edition)
+=================================
 
 > Industry leading face manipulation platform.
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/facefusion/facefusion/ci.yml.svg?branch=master)](https://github.moeyy.xyz/https://github.com/facefusion/facefusion/actions?query=workflow:ci)
-[![Coverage Status](https://img.shields.io/coveralls/facefusion/facefusion.svg)](https://coveralls.io/r/facefusion/facefusion)
 ![License](https://img.shields.io/badge/license-MIT-green)
+
+
+Introduction
+------------
+
+FFEE (FaceFusion Enhanced Edition) is an improved version of the original FaceFusion platform, designed to provide a smoother and faster experience for users, especially those located in China. FFEE retains all the core functionalities of the original FaceFusion while introducing several key enhancements:
+
+- **China Domestic CDN**: Faster access for users in China by serving assets through a domestic CDN, reducing latency and improving overall performance.
+- **No NSFW Detection**: FFEE removes the NSFW detection feature, offering unrestricted usage across all content types.
+- **Removal of Low-Quality Models**: We've cleaned up the model library by removing low-quality models, ensuring only the best and most reliable models are available for use.
+
+Please note that the project structure, file names, and documentation remain consistent with the original FaceFusion project.
 
 
 Preview
@@ -17,7 +27,7 @@ Preview
 Installation
 ------------
 
-Be aware, the [installation](https://docs.facefusion.io/installation) needs technical skills and is not recommended for beginners. In case you are not comfortable using a terminal, our [Windows Installer](https://windows-installer.facefusion.io) and [macOS Installer](https://macos-installer.facefusion.io) get you started.
+Please refer to [installation](https://docs.facefusion.io/installation)
 
 
 Usage
@@ -39,7 +49,7 @@ commands:
     job-list                                      list jobs by status
     job-create                                    create a drafted job
     job-submit                                    submit a drafted job to become a queued job
-    job-submit-all                                submit all drafted jobs to become a queued jobs
+    job-submit-all                                submit all drafted jobs to become queued jobs
     job-delete                                    delete a drafted, queued, failed or completed job
     job-delete-all                                delete all drafted, queued, failed and completed jobs
     job-add-step                                  add a step to a drafted job
@@ -56,4 +66,4 @@ commands:
 Documentation
 -------------
 
-Read the [documentation](https://docs.facefusion.io) for a deep dive.
+For detailed documentation and advanced usage, please refer to the [original documentation](https://docs.facefusion.io). All documentation remains applicable to FFEE.
